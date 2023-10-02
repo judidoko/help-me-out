@@ -1,7 +1,3 @@
-// import videoImg from "../assets/images/Video-Repository.jpg";
-// import Icon1 from "../assets/images/Icon-placeholder1.jpg";
-// import Icon2 from "../assets/images/Icon-placeholder2.jpg";
-// import Icon3 from "../assets/images/Icon-placeholder3.jpg";
 import videoImg from "/images/Video-Repository.jpg";
 import Icon1 from "/images/Icon-placeholder1.jpg";
 import Icon2 from "/images/Icon-placeholder2.jpg";
@@ -17,7 +13,7 @@ const Features = () => {
         <p className="text-center text-[#616163] text-xl font-normal ">
           Key Highlights of Our Extension
         </p>
-        <div className="container mx-auto px-8 flex justify-center items-center mt-6 gap-4">
+        <div className="container mx-auto px-8 flex sm:flex-row flex-col justify-center items-center mt-6 gap-4">
           <div>
             <div className="flex gap-3">
               <div>

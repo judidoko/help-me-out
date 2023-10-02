@@ -8,7 +8,7 @@ const HowItWorks = () => {
         <h2 className="text-center text-[#141414] text-4xl font-bold m-8">
           How Its Works
         </h2>
-        <div className="flex justify-center items-center gap-x-32">
+        <div className="flex sm:flex-row flex-col justify-center items-center gap-x-32">
           <div>
             <h1 className="text-center text-4xl w-10 m-auto rounded-full text-white bg-[#120B48]">
               1
