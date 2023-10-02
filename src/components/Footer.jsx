@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="bg-[#120B48] p-16 flex justify-between items-center">
         <div>
-          <img src={Logo2} alt="" />
+          <img src={Logo2} alt="Logo" />
         </div>
         <div className="text-white">
           <h2 className="text-xl font-semibold mb-4">Menu</h2>
