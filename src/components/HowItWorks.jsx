@@ -4,7 +4,7 @@ import Vec from "/images/rec.jpg";
 const HowItWorks = () => {
   return (
     <>
-      <div className="container mx-auto px-8">
+      <div id="howItWorks_section" className="container mx-auto px-8">
         <h2 className="text-center text-[#141414] text-4xl font-bold m-8">
           How Its Works
         </h2>

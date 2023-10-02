@@ -10,7 +10,7 @@ import Icon3 from "/images/Icon-placeholder3.jpg";
 const Features = () => {
   return (
     <>
-      <div>
+      <div id="features_section">
         <h2 className="text-center text-[#141414] text-4xl font-bold m-6">
           Features
         </h2>

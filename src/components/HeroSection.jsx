@@ -6,7 +6,10 @@ import { PiArrowRightLight } from "react-icons/pi";
 const HeroSection = () => {
   return (
     <>
-      <div className="container mx-auto px-8 bg-white flex justify-center items-center gap-3">
+      <div
+        id="home_section"
+        className="container mx-auto px-8 bg-white flex justify-center items-center gap-3"
+      >
         <div>
           <h1 className="text-[#141414] text-6xl font-bold">
             Show Them <br /> Don’t Just Tell
