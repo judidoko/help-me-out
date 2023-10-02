@@ -1,4 +1,5 @@
-import Vec from "../assets/images/rec.jpg";
+// import Vec from "../assets/images/rec.jpg";
+import Vec from "/images/rec.jpg";
 
 const HowItWorks = () => {
   return (

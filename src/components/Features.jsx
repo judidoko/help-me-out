@@ -1,7 +1,11 @@
-import videoImg from "../assets/images/Video-Repository.jpg";
-import Icon1 from "../assets/images/Icon-placeholder1.jpg";
-import Icon2 from "../assets/images/Icon-placeholder2.jpg";
-import Icon3 from "../assets/images/Icon-placeholder3.jpg";
+// import videoImg from "../assets/images/Video-Repository.jpg";
+// import Icon1 from "../assets/images/Icon-placeholder1.jpg";
+// import Icon2 from "../assets/images/Icon-placeholder2.jpg";
+// import Icon3 from "../assets/images/Icon-placeholder3.jpg";
+import videoImg from "/images/Video-Repository.jpg";
+import Icon1 from "/images/Icon-placeholder1.jpg";
+import Icon2 from "/images/Icon-placeholder2.jpg";
+import Icon3 from "/images/Icon-placeholder3.jpg";
 
 const Features = () => {
   return (

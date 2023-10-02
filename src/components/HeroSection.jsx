@@ -1,4 +1,5 @@
-import HeroImg from "../assets/images/hero.jpg";
+// import HeroImg from "../assets/images/hero.jpg";
+import HeroImg from "/images/hero.jpg";
 
 import { PiArrowRightLight } from "react-icons/pi";
 
