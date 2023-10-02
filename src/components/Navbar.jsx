@@ -6,7 +6,7 @@ import Logo from "/images/logo.png";
 const Navbar = () => {
   return (
     <>
-      <nav className="container mx-auto px-8 mt-4">
+      <nav className="container mx-auto px-8 mt-4 fixed top-0 left-0 right-0">
         <div className="flex items-center justify-between">
           <Link to="#home_section" smooth>
             <img src={Logo} alt="logo" />

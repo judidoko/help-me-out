@@ -7,8 +7,8 @@ const HeroSection = () => {
   return (
     <>
       <div
-        id="home_section"
-        className="container mx-auto px-8 bg-white flex sm:flex-row flex-col justify-center items-center gap-3"
+        id="/"
+        className="container mx-auto px-8 bg-white pt-10 flex sm:flex-row flex-col justify-between items-center gap-3"
       >
         <div className="w-full">
           <h1 className="text-[#141414] text-6xl font-bold">
