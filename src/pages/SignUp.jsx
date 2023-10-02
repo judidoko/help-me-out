@@ -1,14 +1,15 @@
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
 import Logo from "/images/logo.png";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
     <>
       <div className="container mx-auto px-8 mt-10 mb-8">
-        <div>
+        <Link to="/">
           <img src={Logo} alt="logo" />
-        </div>
+        </Link>
         <div className="flex flex-col justify-center items-center m-auto w-[450px]">
           <h2 className="text-gray-900 text-3xl tracking-wide font-bold mb-1">
             Log in or Sign Up

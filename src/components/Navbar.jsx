@@ -1,5 +1,5 @@
-// import { Link } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
+import { HashLink as Links } from "react-router-hash-link";
 // import Logo from "../assets/images/logo.png";
 import Logo from "/images/logo.png";
 
@@ -8,32 +8,32 @@ const Navbar = () => {
     <>
       <nav className="container mx-auto px-8 mt-4 fixed top-0 left-0 right-0">
         <div className="flex items-center justify-between">
-          <Link to="#home_section" smooth>
+          <Link to="/">
             <img src={Logo} alt="logo" />
           </Link>
           <div className="flex items-center gap-9">
-            <Link
+            <Links
               to="#features_section"
               smooth
               className="text-base font-semibold"
             >
               Features
-            </Link>
-            <Link
+            </Links>
+            <Links
               to="#howItWorks_section"
               smooth
               className="text-base font-semibold"
             >
               How it Works
-            </Link>
+            </Links>
           </div>
-          <Link
+          <Links
             to="/sign-up"
             smooth
             className="text-[#120B48] text-2xl font-bold"
           >
             Get Start
-          </Link>
+          </Links>
         </div>
       </nav>
     </>
